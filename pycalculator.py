@@ -1,4 +1,4 @@
-#================== PYTHON CALCULATOR =======================
+#================== PYTHON CALCULATOR USING TKINTER =======================
 
 #declaration of numbers.....
 def btnClick (numbers):
