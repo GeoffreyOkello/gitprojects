@@ -1,6 +1,6 @@
 #================== PYTHON CALCULATOR =======================
 
-#entering numbers.....
+#declaration of numbers.....
 def btnClick (numbers):
     global operator
     operator = operator + str(numbers)
@@ -21,9 +21,7 @@ def btnEqualInput ():
     text_Input.set(sumup)
     operator = ""
 
-
-
-
+#importing from tkinter...........
 from tkinter import*
 
 cal = Tk()
@@ -98,7 +96,7 @@ btnEquals = Button(cal, padx= 16, pady= 16, bd = 8, fg = "black", font= ('arial'
 Division = Button(cal, padx= 16,pady= 16, bd = 8, fg = "black", font= ('arial', 20, 'bold'),
               text = "/", bg = "powder blue", command = lambda : btnClick("/")).grid(row = 4, column =3)
 
-s
+
 
 cal.mainloop()
 #============================== END OF PROGRAM =======================
